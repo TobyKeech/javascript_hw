@@ -11,8 +11,8 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 
-// Miss Scarlet
-// -----------------------------------------------------------------------------------------------------------
+// // Miss Scarlet
+// // -----------------------------------------------------------------------------------------------------------
 const murderer = 'Professor Plum';
 
 const changeMurderer = function() {
@@ -27,8 +27,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 // Professor Plum as now viewed within the fucntion itself
-// -----------------------------------------------------------------------------------------------------------
-
+// // -----------------------------------------------------------------------------------------------------------
 
 let murderer = 'Professor Plum';
 
@@ -43,9 +42,9 @@ console.log('First Verdict: ', firstVerdict);
 const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 
-// Professor Plum is actaul murderer as now outside the function
+// // // Professor Plum is actaul murderer as now outside the function
 
-// -----------------------------------------------------------------------------------------------------------
+// // -----------------------------------------------------------------------------------------------------------
 let suspectOne = 'Miss Scarlet';
 let suspectTwo = 'Professor Plum';
 let suspectThree = 'Mrs. Peacock';
@@ -60,8 +59,8 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 
-// Mrs Peacock as colonel mustard was declared in the function itself
-// -----------------------------------------------------------------------------------------------------------
+// // Mrs Peacock as colonel mustard was declared in the function itself
+// // -----------------------------------------------------------------------------------------------------------
 let murderer = 'Colonel Mustard';
 
 const changeMurderer = function() {
@@ -82,8 +81,8 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 
-// Mr White  as starts as MrC then Mr G and then Mr W 
-// -----------------------------------------------------------------------------------------------------------
+// // Mr White  as starts as MrC then Mr G and then Mr W 
+// // -----------------------------------------------------------------------------------------------------------
 let murderer = 'Professor Plum';
 
 const changeMurderer = function() {
@@ -109,8 +108,8 @@ const declareMurderer = function() {
 changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
-//  Colonel Mustard as reverts back tp him after decalring from Miss Scarlet 
-// -----------------------------------------------------------------------------------------------------------
+// //  Mr Green as the consent is Mr Green
+// // -----------------------------------------------------------------------------------------------------------
 const scenario = {
     murderer: 'Mrs. Peacock',
     room: 'Conservatory',
@@ -141,10 +140,11 @@ const scenario = {
   const declareWeapon = function() {
     return `The weapon is ${scenario.weapon}.`
   }
-  // -----------------------------------------------------------------------------------------------------------
   changeScenario();
   const verdict = declareWeapon();
   console.log(verdict);
+
+//   the weapon is candle stick as changed with unexpectedout
 
   let murderer = 'Professor Plum';
 
